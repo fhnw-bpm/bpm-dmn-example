@@ -32,8 +32,8 @@
       <bpmn:outgoing>SequenceFlow_1wfhglf</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_1qfiuam</bpmn:outgoing>
     </bpmn:inclusiveGateway>
-    <bpmn:sequenceFlow id="SequenceFlow_1wfhglf" sourceRef="ExclusiveGateway_0hbd2bs" targetRef="Task_1d8ojq0" />
-    <bpmn:sequenceFlow id="SequenceFlow_1qfiuam" sourceRef="ExclusiveGateway_0hbd2bs" targetRef="Task_1cjvkyf" />
+    <bpmn:sequenceFlow id="SequenceFlow_1wfhglf" name="Prämien-erhöhung" sourceRef="ExclusiveGateway_0hbd2bs" targetRef="Task_1d8ojq0" />
+    <bpmn:sequenceFlow id="SequenceFlow_1qfiuam" name="Leistungs-ausschluss" sourceRef="ExclusiveGateway_0hbd2bs" targetRef="Task_1cjvkyf" />
     <bpmn:sequenceFlow id="SequenceFlow_1a554ej" sourceRef="Task_1cjvkyf" targetRef="ExclusiveGateway_1sw4fv3" />
     <bpmn:inclusiveGateway id="ExclusiveGateway_1sw4fv3">
       <bpmn:incoming>SequenceFlow_1a554ej</bpmn:incoming>
@@ -151,7 +151,7 @@
         <di:waypoint xsi:type="dc:Point" x="572" y="503" />
         <di:waypoint xsi:type="dc:Point" x="660" y="503" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="587" y="509.5" width="0" height="12" />
+          <dc:Bounds x="588" y="505" width="46" height="24" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1qfiuam_di" bpmnElement="SequenceFlow_1qfiuam">
@@ -159,7 +159,7 @@
         <di:waypoint xsi:type="dc:Point" x="572" y="607" />
         <di:waypoint xsi:type="dc:Point" x="660" y="607" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="587" y="586.5" width="0" height="12" />
+          <dc:Bounds x="582" y="578" width="56" height="24" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="SequenceFlow_1a554ej_di" bpmnElement="SequenceFlow_1a554ej">
